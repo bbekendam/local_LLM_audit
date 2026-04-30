@@ -98,7 +98,7 @@ echo "--- Phase 5: Exporting Master GRC Report ---"
 # Generates the standalone HTML artifact[cite: 2]
 npx promptfoo@latest export -o "$REPORT_NAME"
 
-echo "--- Phase 6: Reclaiming 16GB RAM ---"
+echo "--- Phase 6: Reclaiming RAM  ---"
 kill $OLLAMA_PID
 wait $OLLAMA_PID 2>/dev/null
 
