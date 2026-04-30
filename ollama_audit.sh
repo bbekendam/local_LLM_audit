@@ -10,7 +10,7 @@
 export OLLAMA_MODELS=$(pwd)/.models
 export OLLAMA_HOST=127.0.0.1:11434
 MODEL_NAME="llama3"
-REPORT_NAME="aegis_master_audit_$(date +%Y%m%d_%H%M%S).html"
+REPORT_NAME="aegis_${MODEL_NAME}_audit_$(date +%Y%m%d_%H%M%S).html"
 
 # Cleanup Trap: Ensures the engine process is killed if the script is interrupted
 trap 'echo "Terminating..."; kill $OLLAMA_PID 2>/dev/null; exit' INT TERM EXIT
