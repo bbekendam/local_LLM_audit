@@ -6,13 +6,21 @@ The AEGIS methodology utilizes specialized plugins to evaluate the model across 
 
 The report includes framework mappings:
 NIST AI
+
 DoD AI Ethical Principles
+
 OWASP LLM top 10
+
 OWASP Top 10 for Agentic Apps
+
 OWASP API Security Top 10
+
 MITRE ATLAS
+
 ISO 42001
+
 Data Protection Testing
+
 EU AI Act
 
 
