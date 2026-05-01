@@ -1,5 +1,5 @@
 # Local LLM Audit: Methodology & Workflow
-The methodology employs an Infrastructure-as-Code (IaC) philosophy to generate audit parameters dynamically[cite: 1].
+The methodology employs an Infrastructure-as-Code (IaC) philosophy to generate audit parameters dynamically.
 
 ## Multi-Vector Attack Surface
 The AEGIS methodology utilizes specialized plugins to evaluate the model across several critical risk domains.
