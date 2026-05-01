@@ -46,8 +46,10 @@ redteam:
   
   plugins:
     - id: nist:ai:measure
-    - id: cyberseceval
     - id: harmbench
+      numTests: 5 # The default is 5, but you can define the limit here.
+    - id: cyberseceval
+      numTests: 25 # The default is 5, but you can define the limit here.
     - id: excessive-agency  # Tests for unauthorized actions beyond defined system boundaries
     - id: harmful:misinformation-disinformation  # Tests handling of false information campaigns
     - id: harmful:privacy  # Tests handling of privacy violation attempts
